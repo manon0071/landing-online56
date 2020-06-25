@@ -1,0 +1,210 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+
+/*header section start*/
+header{
+	width: 100%;
+	float: left;
+
+}
+
+.logo{
+	width: 30%;
+	float: left;
+}
+.logo img{
+	display: block;
+	width: 150px;
+	height: 150px;
+}
+
+.menu{
+	width: 70%;
+	float: left;
+
+}
+
+
+nav ul {
+
+	list-style: none;
+}
+
+nav ul li {
+
+	display: inline-block;
+
+	margin: 20px 40px;
+}
+
+nav ul li a{
+
+	background: darkred;
+
+	padding: 10px 24px;
+
+	color: #fff;
+
+	text-decoration: none;
+
+	text-transform: uppercase;
+}
+/*Banner section start*/
+
+.banner{
+	width: 100%;
+	float: left;
+
+}
+
+.banner-one{
+	width: 33.33%;
+	float: left;
+	background-color: blue;
+	height: 750px;
+
+}
+
+
+
+.banner-two{
+	width: 33.33%;
+	float: left;
+	background-color: green;
+	height: 750px;
+
+}
+
+
+.banner-three{
+	width: 33.33%;
+	float: left;
+	background-color: maroon;
+	height: 750px;
+
+}
+
+.banner-content{
+	width: 50%;
+	float: left;
+	background-color: lightblue;
+	height: 750px;
+
+}
+
+.banner-image{
+
+	width: 50%;
+	float: left;
+	background-color: blue;
+	height: 750px;
+
+
+}
+
+/*gallery start*/
+
+.gallery{
+	width: 100%;
+	float: left;
+
+}
+
+.gallery-one{
+	width: 25%;
+	float: left;
+	background-color: #161616;
+	height: 500px;
+
+}
+
+.gallery-two{
+	width: 25%;
+	float: left;
+	background-color: yellow;
+	height: 500px;
+
+}
+
+.gallery-three{
+	width: 25%;
+	float: left;
+	background-color: blue;
+	height: 500px;
+
+}
+
+.gallery-four{
+	width: 25%;
+	float: left;
+	background-color: grey;
+	height: 500px;
+
+}
+
+footer{
+	width: 100%;
+	float: left;
+	padding: 25px 0px;
+}
+
+.socail-icon{
+
+}
+
+.socail-icon ul{
+	
+list-style: none;
+}
+
+
+.socail-icon ul li{
+	
+display: inline-block;
+	
+margin: 10px 20px;
+}
+
+
+.fa.fa-facebook{
+	background-color: #161616;
+	color: #fff;
+	padding: 5px 10px;
+	transition: 0.4s ease-in-out;
+}
+
+.fa.fa-instagram{
+	background-color: #161616;
+	color: #fff;
+	padding: 5px 10px;
+	
+}
+
+.fa.fa-linkedin{
+	background-color: #161616;
+	color: #fff;
+	padding: 5px 10px;
+	
+}
+
+.fa.fa-twitter{
+	background-color: #161616;
+	color: #fff;
+	padding: 5px 10px;
+	
+}
+
+.fa.fa-facebook:hover{
+	background-color: #4267B2;
+	color: #fff;
+	padding: 5px 10px;
+	transform: scale(1.5);
+}
